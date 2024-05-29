@@ -75,6 +75,6 @@ app.post('/sign_up', async (req, resp) => {
 })
 
 app.listen(PORT, () => {
-    console.log(`Connect at port number ${PORT}`)
+    console.log(`Connect your webpage throught this link http://localhost:${PORT}/`)
 })
 
